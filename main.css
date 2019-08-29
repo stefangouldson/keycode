@@ -1,0 +1,73 @@
+
+body{
+    background-color:aliceblue
+}
+#title-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title{
+    background-color: cornflowerblue;
+    width: 30%;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid
+}
+
+#front{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin: 50px;
+    padding: 0px
+}
+
+#container{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right:10%;
+    border-radius: 20px;
+}
+
+#box1{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width:20%
+}
+
+#box2{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:20%
+}
+
+#box3{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:10px;
+    width:20%
+}
+
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-decoration: underline;
+}
